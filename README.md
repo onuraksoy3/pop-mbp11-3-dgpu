@@ -25,7 +25,8 @@ Then reboot. At rEFInd choose Pop!_OS; the patched kernel boots by default. Run 
 
 Flags: `--max-0f` (0f boost tier under sustained load — Apple's factory memory clock, ~+20 %, small lock-up risk),
 `--no-kernel` (Intel-only setup: dGPU off at boot, no patched kernel), `--kernel-dir DIR` (use your own
-`.deb` files).
+`.deb` files), `--only intel-boot,kernel,reclocked` (run only some phases), `--offline DIR` (no network: packages,
+kernel and sources from an unpacked [kit](https://github.com/onuraksoy3/pop-mbp11-3) bundle).
 
 ## What it installs
 
