@@ -3,6 +3,9 @@
 macOS-style GPU switching for the 15" Retina MacBook Pro (Late 2013 / Mid 2014, **MacBookPro11,3**:
 Intel Iris Pro 5200 + NVIDIA GeForce GT 750M) on **Pop!_OS 24.04 with COSMIC**.
 
+> **All-in-one install:** for Wi-Fi, keyd, Clover and a guided installer with offline support, use the
+> [MacBook Pro 11,3 kit](https://github.com/onuraksoy3/pop-mbp11-3). It installs this repo's dGPU setup as part of it.
+
 - The Intel GPU drives the panel and the desktop.
 - The GT 750M is **powered off** until an app launched on it needs it (~1 s to wake), runs at full
   clocks under load, and powers off again a few seconds after the app exits.
